@@ -1,0 +1,101 @@
+body
+{
+margin: 0;
+background-image: url("images/test.jpeg");
+font-size:20px;
+font-family:Georgia,"Times New Roman",Times,serif;}
+
+#conteneur {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	padding:0 60px 100px 30px;
+	border: thin solid #999;
+	background-image: url("images/vert.jpg");
+}
+
+/*-------------Header-------------------*/
+
+#header {
+	text-align: right;
+	background: rgb(2,0,36);
+	background: linear-gradient(55deg, rgba(2,0,36,1) 0%, rgba(17,176,14,1) 52%, rgba(0,255,29,0.9387698335913313) 95%);
+	height:220px;
+}
+
+.logo{
+ text-align : center;
+}
+
+/*------------Liste--------------------*/
+
+#menu ul {
+	text-align: center;
+	background: rgb(39,154,55);
+	background: linear-gradient(55deg, rgba(39,154,55,1) 12%, rgba(58,182,50,0.01) 95%);
+	height:120px;
+}
+#menu ul li {
+	text-align: center;
+	display: inline;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.image {
+float: left;
+margin: 00px 50px 80px 50px;
+}
+
+.right {
+float: right;
+margin: 0 50px 30px 30px;
+}
+/*--------------------------------------*/
+a
+{
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:black;
+	background-color:grey;
+}
+
+a:link
+{
+	color:black;
+}
+
+/*----------------FOOTER-----------------*/
+footer{padding:0 10px;}
+
+/*---------------ASIDE------------------*/
+
+aside{
+	width:140px;
+	float:right;
+	padding:0 10px;
+	position: absolute; top:420px; right:800px;
+	border-style: inset;
+	}
+aside p{text-align:justify;}
+
+/*----------exta page-----------*/
+h1{
+	text-align: center;
+}
+
+
+h2 {font-style: italic;
+	text-align: center;
+	background: rgb(39,154,55);
+	background: linear-gradient(55deg, rgba(39,154,55,1) 12%, rgba(58,182,50,0.01) 95%);
+	}
+
+.ligne {background-color:#9ACD32;}
+
+p {text-align:justify;
+	line-height: 1em;}
+

@@ -1,0 +1,43 @@
+body
+{
+margin: 0;
+background-image: url("images/test.jpeg");
+font-size:20px;
+font-family:Georgia,"Times New Roman",Times,serif;}
+
+#conteneur {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	padding:0 60px 100px 30px;
+	border: thin solid #999;
+	background-image: url("images/vert.jpg");
+}
+
+.left {
+float: left;
+margin: 0 50px 30px 30px;
+}
+
+img{
+width: 1200px; height:600px;
+transition: transform .1s;
+}
+
+img:hover{
+    -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.bouton a {
+padding: 10px 30px;
+text-align:center;
+vertical-align:middle;
+background:#82E0AA;
+color:white;
+text-decoration:none;
+}
+.bouton a:hover {
+background:#1D8348;
+}
